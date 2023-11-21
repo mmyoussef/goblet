@@ -10,6 +10,9 @@ If you are running into issues running tests make sure to set your pythonpath.
 
 ```export PYTHONPATH=$(pwd)```
 
+and install requests-mock
+
+```pip install requests-mock```
 ## Writing Tests
 
 * When mocking tests that interact with GCP you will notice the following env vars set. 
